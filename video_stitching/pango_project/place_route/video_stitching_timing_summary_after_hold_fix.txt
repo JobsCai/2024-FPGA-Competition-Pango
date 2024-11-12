@@ -1,0 +1,136 @@
+Design Summary : Some Constraints Violated.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                     14.368       0.000              0           3197
+ cam_pclk               cam_pclk                    32.582       0.000              0           4460
+ hdmi_rx_pix_clk        hdmi_rx_pix_clk              1.548       0.000              0           1019
+ ddrphy_clkin           ddrphy_clkin                 2.285       0.000              0          15336
+ ioclk0                 ioclk0                       1.692       0.000              0             24
+ ioclk1                 ioclk1                       1.692       0.000              0             72
+ gmii_rx_clk            gmii_rx_clk                  2.521       0.000              0           1355
+ video_stitching|cam2_pclk
+                        video_stitching|cam2_pclk
+                                                    14.766       0.000              0           1167
+ DebugCore_JCLK         DebugCore_JCLK              23.551       0.000              0            333
+ DebugCore_CAPTURE      DebugCore_JCLK              20.886       0.000              0            108
+ DebugCore_JCLK         DebugCore_CAPTURE           48.026       0.000              0             16
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.250       0.000              0           3197
+ cam_pclk               cam_pclk                     0.394       0.000              0           4460
+ hdmi_rx_pix_clk        hdmi_rx_pix_clk              0.353       0.000              0           1019
+ ddrphy_clkin           ddrphy_clkin                -0.303      -0.303              1          15336
+ ioclk0                 ioclk0                       0.450       0.000              0             24
+ ioclk1                 ioclk1                       0.450       0.000              0             72
+ gmii_rx_clk            gmii_rx_clk                  0.312       0.000              0           1355
+ video_stitching|cam2_pclk
+                        video_stitching|cam2_pclk
+                                                     0.252       0.000              0           1167
+ DebugCore_JCLK         DebugCore_JCLK               0.339       0.000              0            333
+ DebugCore_CAPTURE      DebugCore_JCLK              24.796       0.000              0            108
+ DebugCore_JCLK         DebugCore_CAPTURE            0.264       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                     15.476       0.000              0            487
+ hdmi_rx_pix_clk        hdmi_rx_pix_clk              4.163       0.000              0             61
+ ddrphy_clkin           ddrphy_clkin                 0.579       0.000              0           2545
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.340       0.000              0            487
+ hdmi_rx_pix_clk        hdmi_rx_pix_clk              0.874       0.000              0             61
+ ddrphy_clkin           ddrphy_clkin                 0.502       0.000              0           2545
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                     16.079       0.000              0           3197
+ cam_pclk               cam_pclk                    35.225       0.000              0           4460
+ hdmi_rx_pix_clk        hdmi_rx_pix_clk              3.133       0.000              0           1019
+ ddrphy_clkin           ddrphy_clkin                 2.973       0.000              0          15336
+ ioclk0                 ioclk0                       1.834       0.000              0             24
+ ioclk1                 ioclk1                       1.834       0.000              0             72
+ gmii_rx_clk            gmii_rx_clk                  4.161       0.000              0           1355
+ video_stitching|cam2_pclk
+                        video_stitching|cam2_pclk
+                                                    16.289       0.000              0           1167
+ DebugCore_JCLK         DebugCore_JCLK              23.968       0.000              0            333
+ DebugCore_CAPTURE      DebugCore_JCLK              22.239       0.000              0            108
+ DebugCore_JCLK         DebugCore_CAPTURE           48.472       0.000              0             16
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.250       0.000              0           3197
+ cam_pclk               cam_pclk                     0.250       0.000              0           4460
+ hdmi_rx_pix_clk        hdmi_rx_pix_clk              0.252       0.000              0           1019
+ ddrphy_clkin           ddrphy_clkin                -0.271      -0.271              1          15336
+ ioclk0                 ioclk0                       0.383       0.000              0             24
+ ioclk1                 ioclk1                       0.383       0.000              0             72
+ gmii_rx_clk            gmii_rx_clk                  0.251       0.000              0           1355
+ video_stitching|cam2_pclk
+                        video_stitching|cam2_pclk
+                                                     0.195       0.000              0           1167
+ DebugCore_JCLK         DebugCore_JCLK               0.264       0.000              0            333
+ DebugCore_CAPTURE      DebugCore_JCLK              24.988       0.000              0            108
+ DebugCore_JCLK         DebugCore_CAPTURE            0.442       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                     16.722       0.000              0            487
+ hdmi_rx_pix_clk        hdmi_rx_pix_clk              4.886       0.000              0             61
+ ddrphy_clkin           ddrphy_clkin                 1.692       0.000              0           2545
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.323       0.000              0            487
+ hdmi_rx_pix_clk        hdmi_rx_pix_clk              0.650       0.000              0             61
+ ddrphy_clkin           ddrphy_clkin                 0.299       0.000              0           2545
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+

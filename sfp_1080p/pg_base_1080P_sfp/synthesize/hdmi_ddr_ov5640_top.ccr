@@ -1,0 +1,453 @@
+##### Written on 2024/11/01 17:54:36 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	hdmi_ddr_ov5640_top
+
+Constraint File(s) : 
+	W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 34 critical warning(s), 76 warning(s), out of 1320 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:b_in[5]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1068)] PAP_IO_DIRECTION is already defined in p:b_in[5], new value INPUT will overwrite the current value.
+
+define_attribute {p:b_in[5]} {PAP_IO_LOC} {AB16}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1069)] PAP_IO_LOC is already defined in p:b_in[5], new value AB16 will overwrite the current value.
+
+define_attribute {p:b_in[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1070)] PAP_IO_VCCIO is already defined in p:b_in[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_in[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1071)] PAP_IO_STANDARD is already defined in p:b_in[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_in[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1072)] PAP_IO_NONE is already defined in p:b_in[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1078)] PAP_IO_DIRECTION is already defined in p:b_in[3], new value INPUT will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_LOC} {W15}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1079)] PAP_IO_LOC is already defined in p:b_in[3], new value W15 will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1080)] PAP_IO_VCCIO is already defined in p:b_in[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1081)] PAP_IO_STANDARD is already defined in p:b_in[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1082)] PAP_IO_NONE is already defined in p:b_in[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1093)] PAP_IO_DIRECTION is already defined in p:b_in[0], new value INPUT will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_LOC} {U14}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1094)] PAP_IO_LOC is already defined in p:b_in[0], new value U14 will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1095)] PAP_IO_VCCIO is already defined in p:b_in[0], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1096)] PAP_IO_STANDARD is already defined in p:b_in[0], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1097)] PAP_IO_NONE is already defined in p:b_in[0], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1098)] PAP_IO_DIRECTION is already defined in p:g_in[7], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_LOC} {W17}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1099)] PAP_IO_LOC is already defined in p:g_in[7], new value W17 will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1100)] PAP_IO_VCCIO is already defined in p:g_in[7], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1101)] PAP_IO_STANDARD is already defined in p:g_in[7], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1102)] PAP_IO_NONE is already defined in p:g_in[7], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1103)] PAP_IO_DIRECTION is already defined in p:g_in[6], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_LOC} {Y18}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1104)] PAP_IO_LOC is already defined in p:g_in[6], new value Y18 will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1105)] PAP_IO_VCCIO is already defined in p:g_in[6], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1106)] PAP_IO_STANDARD is already defined in p:g_in[6], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1107)] PAP_IO_NONE is already defined in p:g_in[6], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1108)] PAP_IO_DIRECTION is already defined in p:g_in[5], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_LOC} {AB18}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1109)] PAP_IO_LOC is already defined in p:g_in[5], new value AB18 will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1110)] PAP_IO_VCCIO is already defined in p:g_in[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1111)] PAP_IO_STANDARD is already defined in p:g_in[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1112)] PAP_IO_NONE is already defined in p:g_in[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1113)] PAP_IO_DIRECTION is already defined in p:g_in[4], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_LOC} {AA18}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1114)] PAP_IO_LOC is already defined in p:g_in[4], new value AA18 will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1115)] PAP_IO_VCCIO is already defined in p:g_in[4], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1116)] PAP_IO_STANDARD is already defined in p:g_in[4], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1117)] PAP_IO_NONE is already defined in p:g_in[4], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1118)] PAP_IO_DIRECTION is already defined in p:g_in[3], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_LOC} {AB19}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1119)] PAP_IO_LOC is already defined in p:g_in[3], new value AB19 will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1120)] PAP_IO_VCCIO is already defined in p:g_in[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1121)] PAP_IO_STANDARD is already defined in p:g_in[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1122)] PAP_IO_NONE is already defined in p:g_in[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1128)] PAP_IO_DIRECTION is already defined in p:g_in[1], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_LOC} {V17}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1129)] PAP_IO_LOC is already defined in p:g_in[1], new value V17 will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1130)] PAP_IO_VCCIO is already defined in p:g_in[1], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1131)] PAP_IO_STANDARD is already defined in p:g_in[1], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1132)] PAP_IO_NONE is already defined in p:g_in[1], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1138)] PAP_IO_DIRECTION is already defined in p:r_in[7], new value INPUT will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_LOC} {Y14}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1139)] PAP_IO_LOC is already defined in p:r_in[7], new value Y14 will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1140)] PAP_IO_VCCIO is already defined in p:r_in[7], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1141)] PAP_IO_STANDARD is already defined in p:r_in[7], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1142)] PAP_IO_NONE is already defined in p:r_in[7], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1143)] PAP_IO_DIRECTION is already defined in p:r_in[6], new value INPUT will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_LOC} {W14}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1144)] PAP_IO_LOC is already defined in p:r_in[6], new value W14 will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1145)] PAP_IO_VCCIO is already defined in p:r_in[6], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1146)] PAP_IO_STANDARD is already defined in p:r_in[6], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1147)] PAP_IO_NONE is already defined in p:r_in[6], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1148)] PAP_IO_DIRECTION is already defined in p:r_in[5], new value INPUT will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_LOC} {AB14}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1149)] PAP_IO_LOC is already defined in p:r_in[5], new value AB14 will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1150)] PAP_IO_VCCIO is already defined in p:r_in[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1151)] PAP_IO_STANDARD is already defined in p:r_in[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1152)] PAP_IO_NONE is already defined in p:r_in[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1153)] PAP_IO_DIRECTION is already defined in p:r_in[4], new value INPUT will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_LOC} {AA14}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1154)] PAP_IO_LOC is already defined in p:r_in[4], new value AA14 will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1155)] PAP_IO_VCCIO is already defined in p:r_in[4], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1156)] PAP_IO_STANDARD is already defined in p:r_in[4], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1157)] PAP_IO_NONE is already defined in p:r_in[4], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_LOC} {R22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 17)] | Port b_out[5] has been placed at location R22, whose type is share pin.
+
+define_attribute {p:b_out[4]} {PAP_IO_LOC} {R20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 24)] | Port b_out[4] has been placed at location R20, whose type is share pin.
+
+define_attribute {p:b_out[2]} {PAP_IO_LOC} {T21}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 38)] | Port b_out[2] has been placed at location T21, whose type is share pin.
+
+define_attribute {p:g_out[7]} {PAP_IO_LOC} {L17}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 59)] | Port g_out[7] has been placed at location L17, whose type is share pin.
+
+define_attribute {p:g_out[6]} {PAP_IO_LOC} {K20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 66)] | Port g_out[6] has been placed at location K20, whose type is share pin.
+
+define_attribute {p:g_out[5]} {PAP_IO_LOC} {L19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 73)] | Port g_out[5] has been placed at location L19, whose type is share pin.
+
+define_attribute {p:g_out[0]} {PAP_IO_LOC} {M21}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 108)] | Port g_out[0] has been placed at location M21, whose type is share pin.
+
+define_attribute {p:r_out[7]} {PAP_IO_LOC} {H19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 115)] | Port r_out[7] has been placed at location H19, whose type is share pin.
+
+define_attribute {p:r_out[6]} {PAP_IO_LOC} {H22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 122)] | Port r_out[6] has been placed at location H22, whose type is share pin.
+
+define_attribute {p:r_out[5]} {PAP_IO_LOC} {H21}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 129)] | Port r_out[5] has been placed at location H21, whose type is share pin.
+
+define_attribute {p:r_out[0]} {PAP_IO_LOC} {K17}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 164)] | Port r_out[0] has been placed at location K17, whose type is share pin.
+
+define_attribute {p:pix_clk} {PAP_IO_LOC} {M22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 199)] | Port pix_clk has been placed at location M22, whose type is share pin.
+
+define_attribute {p:mem_dq[14]} {PAP_IO_LOC} {P3}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 471)] | Port mem_dq[14] has been placed at location P3, whose type is share pin.
+
+define_attribute {p:mem_dq[11]} {PAP_IO_LOC} {M1}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 492)] | Port mem_dq[11] has been placed at location M1, whose type is share pin.
+
+define_attribute {p:mem_dq[9]} {PAP_IO_LOC} {M2}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 506)] | Port mem_dq[9] has been placed at location M2, whose type is share pin.
+
+define_attribute {p:cmos1_data[7]} {PAP_IO_LOC} {AB13}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 756)] | Port cmos1_data[7] has been placed at location AB13, whose type is share pin.
+
+define_attribute {p:cmos1_sda} {PAP_IO_LOC} {Y13}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 843)] | Port cmos1_sda has been placed at location Y13, whose type is share pin.
+
+define_attribute {p:cmos2_href} {PAP_IO_LOC} {AB5}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 893)] | Port cmos2_href has been placed at location AB5, whose type is share pin.
+
+define_attribute {p:cmos2_vsync} {PAP_IO_LOC} {Y5}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 903)] | Port cmos2_vsync has been placed at location Y5, whose type is share pin.
+
+define_attribute {p:iic_scl} {PAP_IO_LOC} {V19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 980)] | Port iic_scl has been placed at location V19, whose type is share pin.
+
+define_attribute {p:iic_sda} {PAP_IO_LOC} {V20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 987)] | Port iic_sda has been placed at location V20, whose type is share pin.
+
+define_attribute {p:g_in[5]} {PAP_IO_LOC} {AB18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1109)] | Port g_in[5] has been placed at location AB18, whose type is share pin.
+
+define_attribute {p:g_in[4]} {PAP_IO_LOC} {AA18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1114)] | Port g_in[4] has been placed at location AA18, whose type is share pin.
+
+define_attribute {p:g_in[3]} {PAP_IO_LOC} {AB19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1119)] | Port g_in[3] has been placed at location AB19, whose type is share pin.
+
+define_attribute {p:g_in[1]} {PAP_IO_LOC} {V17}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1129)] | Port g_in[1] has been placed at location V17, whose type is share pin.
+
+define_attribute {p:g_in[2]} {PAP_IO_LOC} {W18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1124)] | Port g_in[2] has been placed at location W18, whose type is share pin.
+
+define_attribute {p:pixclk_in} {PAP_IO_LOC} {AA12}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1189)] | Port pixclk_in has been placed at location AA12, whose type is share pin.
+
+define_attribute {p:rgmii_txctl} {PAP_IO_LOC} {F22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1254)] | Port rgmii_txctl has been placed at location F22, whose type is share pin.
+
+define_attribute {p:rgmii_txd[1]} {PAP_IO_LOC} {E20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1272)] | Port rgmii_txd[1] has been placed at location E20, whose type is share pin.
+
+define_attribute {p:rgmii_txd[2]} {PAP_IO_LOC} {E22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1281)] | Port rgmii_txd[2] has been placed at location E22, whose type is share pin.
+
+define_attribute {p:rgmii_txd[3]} {PAP_IO_LOC} {F21}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1290)] | Port rgmii_txd[3] has been placed at location F21, whose type is share pin.
+
+define_attribute {p:e_mdc} {PAP_IO_LOC} {G20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1298)] | Port e_mdc has been placed at location G20, whose type is share pin.
+
+define_attribute {p:rgmii_rxd[3]} {PAP_IO_LOC} {F18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1341)] | Port rgmii_rxd[3] has been placed at location F18, whose type is share pin.
+
+define_attribute {p:e_mdio} {PAP_IO_LOC} {G22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/sfp_1080p/pg_base_1080P_sfp/hdmi_ddr_ov5640_top.fdc(line number: 1347)] | Port e_mdio has been placed at location G22, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+W: ConstraintEditor-4019: Port 'cmos_init_done[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l2txn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l2txp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l3txn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l3txp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l2rxn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l2rxp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l3rxn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l3rxp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_refckn_0' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_refckp_0' unspecified I/O constraint.
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

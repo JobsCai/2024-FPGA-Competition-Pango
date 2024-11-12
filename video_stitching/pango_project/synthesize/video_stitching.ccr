@@ -1,0 +1,196 @@
+##### Written on 2024/11/12 02:52:48 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	video_stitching
+
+Constraint File(s) : 
+	W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 35 critical warning(s), 10 warning(s), out of 1245 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:mem_dq[14]} {PAP_IO_LOC} {P3}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 249)] | Port mem_dq[14] has been placed at location P3, whose type is share pin.
+
+define_attribute {p:mem_dq[11]} {PAP_IO_LOC} {M1}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 270)] | Port mem_dq[11] has been placed at location M1, whose type is share pin.
+
+define_attribute {p:mem_dq[9]} {PAP_IO_LOC} {M2}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 284)] | Port mem_dq[9] has been placed at location M2, whose type is share pin.
+
+define_attribute {p:key_rst_n} {PAP_IO_LOC} {K18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 508)] | Port key_rst_n has been placed at location K18, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[23]} {PAP_IO_LOC} {H19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 542)] | Port hdmi_tx_data[23] has been placed at location H19, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[22]} {PAP_IO_LOC} {H22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 549)] | Port hdmi_tx_data[22] has been placed at location H22, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[21]} {PAP_IO_LOC} {H21}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 556)] | Port hdmi_tx_data[21] has been placed at location H21, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[16]} {PAP_IO_LOC} {K17}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 591)] | Port hdmi_tx_data[16] has been placed at location K17, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[15]} {PAP_IO_LOC} {L17}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 598)] | Port hdmi_tx_data[15] has been placed at location L17, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[14]} {PAP_IO_LOC} {K20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 605)] | Port hdmi_tx_data[14] has been placed at location K20, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[13]} {PAP_IO_LOC} {L19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 612)] | Port hdmi_tx_data[13] has been placed at location L19, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[8]} {PAP_IO_LOC} {M21}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 647)] | Port hdmi_tx_data[8] has been placed at location M21, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[5]} {PAP_IO_LOC} {R22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 668)] | Port hdmi_tx_data[5] has been placed at location R22, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[4]} {PAP_IO_LOC} {R20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 675)] | Port hdmi_tx_data[4] has been placed at location R20, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[2]} {PAP_IO_LOC} {T21}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 689)] | Port hdmi_tx_data[2] has been placed at location T21, whose type is share pin.
+
+define_attribute {p:hdmi_tx_pix_clk} {PAP_IO_LOC} {M22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 738)] | Port hdmi_tx_pix_clk has been placed at location M22, whose type is share pin.
+
+define_attribute {p:hdmi_rx_data[13]} {PAP_IO_LOC} {AB18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 804)] | Port hdmi_rx_data[13] has been placed at location AB18, whose type is share pin.
+
+define_attribute {p:hdmi_rx_data[12]} {PAP_IO_LOC} {AA18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 809)] | Port hdmi_rx_data[12] has been placed at location AA18, whose type is share pin.
+
+define_attribute {p:hdmi_rx_data[11]} {PAP_IO_LOC} {AB19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 814)] | Port hdmi_rx_data[11] has been placed at location AB19, whose type is share pin.
+
+define_attribute {p:hdmi_rx_data[10]} {PAP_IO_LOC} {W18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 819)] | Port hdmi_rx_data[10] has been placed at location W18, whose type is share pin.
+
+define_attribute {p:hdmi_rx_data[9]} {PAP_IO_LOC} {V17}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 824)] | Port hdmi_rx_data[9] has been placed at location V17, whose type is share pin.
+
+define_attribute {p:hdmi_rx_sda} {PAP_IO_LOC} {V20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 874)] | Port hdmi_rx_sda has been placed at location V20, whose type is share pin.
+
+define_attribute {p:hdmi_rx_scl} {PAP_IO_LOC} {V19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 881)] | Port hdmi_rx_scl has been placed at location V19, whose type is share pin.
+
+define_attribute {p:hdmi_rx_pix_clk} {PAP_IO_LOC} {AA12}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 898)] | Port hdmi_rx_pix_clk has been placed at location AA12, whose type is share pin.
+
+define_attribute {p:cam_vsync} {PAP_IO_LOC} {Y5}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 1029)] | Port cam_vsync has been placed at location Y5, whose type is share pin.
+
+define_attribute {p:cam_href} {PAP_IO_LOC} {AB5}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 1034)] | Port cam_href has been placed at location AB5, whose type is share pin.
+
+define_attribute {p:eth_rst_n} {PAP_IO_LOC} {B20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 1046)] | Port eth_rst_n has been placed at location B20, whose type is share pin.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_LOC} {B18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 1092)] | Port eth_tx_ctl has been placed at location B18, whose type is share pin.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_LOC} {A18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 1099)] | Port eth_txd[3] has been placed at location A18, whose type is share pin.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_LOC} {C18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 1106)] | Port eth_txd[2] has been placed at location C18, whose type is share pin.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_LOC} {D17}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 1113)] | Port eth_txd[1] has been placed at location D17, whose type is share pin.
+
+define_attribute {p:cam2_data[7]} {PAP_IO_LOC} {AB13}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 1180)] | Port cam2_data[7] has been placed at location AB13, whose type is share pin.
+
+define_attribute {p:cam2_sda} {PAP_IO_LOC} {Y13}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 1220)] | Port cam2_sda has been placed at location Y13, whose type is share pin.
+
+define_attribute {p:key5} {PAP_IO_LOC} {J19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 1302)] | Port key5 has been placed at location J19, whose type is share pin.
+
+define_attribute {p:key6} {PAP_IO_LOC} {H20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/video_stitching/pango_project/video_stitching.fdc(line number: 1307)] | Port key6 has been placed at location H20, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+W: ConstraintEditor-4019: Port 'o_p_l2txn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l2txp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l3txn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l3txp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l2rxn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l2rxp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l3rxn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l3rxp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_refckn_0' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_refckp_0' unspecified I/O constraint.
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

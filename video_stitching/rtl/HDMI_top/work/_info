@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA_projects/PANGOMICRO/video_stitching/rtl/HDMI_top
+vms72xx_init
+!s110 1681559557
+!i10b 1
+!s100 [<e`83dC^8YVQU[iZjgz81
+ImZM`H<4KWXIHAeicY=P0l1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1681559556
+8D:\FPGA_projects\PANGOMICRO\video_stitching\rtl\HDMI_top\ms72xx_init.v
+FD:\FPGA_projects\PANGOMICRO\video_stitching\rtl\HDMI_top\ms72xx_init.v
+L0 10
+OL;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1681559557.000000
+!s107 D:\FPGA_projects\PANGOMICRO\video_stitching\rtl\HDMI_top\ms72xx_init.v|
+!s90 D:\FPGA_projects\PANGOMICRO\video_stitching\rtl\HDMI_top\ms72xx_init.v|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

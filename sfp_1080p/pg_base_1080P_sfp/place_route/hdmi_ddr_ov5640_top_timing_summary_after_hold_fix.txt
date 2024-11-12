@@ -1,0 +1,164 @@
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                     14.738       0.000              0           1501
+ ddrphy_clkin           ddrphy_clkin                 2.300       0.000              0          14932
+ ioclk0                 ioclk0                       1.692       0.000              0             24
+ ioclk1                 ioclk1                       1.692       0.000              0             72
+ pix_clk                pix_clk                      9.212       0.000              0            515
+ cfg_clk                cfg_clk                     94.336       0.000              0           1101
+ p_clk2core_rx_2        p_clk2core_rx_2              1.550       0.000              0           2292
+ hdmi_ddr_ov5640_top|pixclk_in
+                        hdmi_ddr_ov5640_top|pixclk_in
+                                                   995.673       0.000              0            217
+ sys_clk|u_pll/u_pll_e3/CLKOUT2_Inferred
+                        sys_clk|u_pll/u_pll_e3/CLKOUT2_Inferred
+                                                    37.295       0.000              0             31
+ DebugCore_JCLK         DebugCore_JCLK              23.161       0.000              0            705
+ DebugCore_CAPTURE      DebugCore_JCLK              20.829       0.000              0            115
+ DebugCore_JCLK         DebugCore_CAPTURE           47.522       0.000              0             16
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.256       0.000              0           1501
+ ddrphy_clkin           ddrphy_clkin                 0.315       0.000              0          14932
+ ioclk0                 ioclk0                       0.450       0.000              0             24
+ ioclk1                 ioclk1                       0.450       0.000              0             72
+ pix_clk                pix_clk                      0.358       0.000              0            515
+ cfg_clk                cfg_clk                      0.312       0.000              0           1101
+ p_clk2core_rx_2        p_clk2core_rx_2              0.244       0.000              0           2292
+ hdmi_ddr_ov5640_top|pixclk_in
+                        hdmi_ddr_ov5640_top|pixclk_in
+                                                     0.407       0.000              0            217
+ sys_clk|u_pll/u_pll_e3/CLKOUT2_Inferred
+                        sys_clk|u_pll/u_pll_e3/CLKOUT2_Inferred
+                                                     0.427       0.000              0             31
+ DebugCore_JCLK         DebugCore_JCLK               0.339       0.000              0            705
+ DebugCore_CAPTURE      DebugCore_JCLK              24.755       0.000              0            115
+ DebugCore_JCLK         DebugCore_CAPTURE            0.366       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                     16.157       0.000              0            326
+ ddrphy_clkin           ddrphy_clkin                 4.042       0.000              0           2537
+ cfg_clk                cfg_clk                     95.823       0.000              0              1
+ p_clk2core_rx_2        p_clk2core_rx_2              3.969       0.000              0            537
+ hdmi_ddr_ov5640_top|pixclk_in
+                        hdmi_ddr_ov5640_top|pixclk_in
+                                                   996.946       0.000              0             55
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.274       0.000              0            326
+ ddrphy_clkin           ddrphy_clkin                 0.413       0.000              0           2537
+ cfg_clk                cfg_clk                      2.226       0.000              0              1
+ p_clk2core_rx_2        p_clk2core_rx_2              0.699       0.000              0            537
+ hdmi_ddr_ov5640_top|pixclk_in
+                        hdmi_ddr_ov5640_top|pixclk_in
+                                                     0.997       0.000              0             55
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                     16.258       0.000              0           1501
+ ddrphy_clkin           ddrphy_clkin                 4.531       0.000              0          14932
+ ioclk0                 ioclk0                       1.834       0.000              0             24
+ ioclk1                 ioclk1                       1.834       0.000              0             72
+ pix_clk                pix_clk                     10.807       0.000              0            515
+ cfg_clk                cfg_clk                     96.037       0.000              0           1101
+ p_clk2core_rx_2        p_clk2core_rx_2              2.810       0.000              0           2292
+ hdmi_ddr_ov5640_top|pixclk_in
+                        hdmi_ddr_ov5640_top|pixclk_in
+                                                   996.917       0.000              0            217
+ sys_clk|u_pll/u_pll_e3/CLKOUT2_Inferred
+                        sys_clk|u_pll/u_pll_e3/CLKOUT2_Inferred
+                                                    38.116       0.000              0             31
+ DebugCore_JCLK         DebugCore_JCLK              23.685       0.000              0            705
+ DebugCore_CAPTURE      DebugCore_JCLK              22.136       0.000              0            115
+ DebugCore_JCLK         DebugCore_CAPTURE           48.125       0.000              0             16
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.259       0.000              0           1501
+ ddrphy_clkin           ddrphy_clkin                 0.191       0.000              0          14932
+ ioclk0                 ioclk0                       0.383       0.000              0             24
+ ioclk1                 ioclk1                       0.383       0.000              0             72
+ pix_clk                pix_clk                      0.288       0.000              0            515
+ cfg_clk                cfg_clk                      0.251       0.000              0           1101
+ p_clk2core_rx_2        p_clk2core_rx_2              0.188       0.000              0           2292
+ hdmi_ddr_ov5640_top|pixclk_in
+                        hdmi_ddr_ov5640_top|pixclk_in
+                                                     0.307       0.000              0            217
+ sys_clk|u_pll/u_pll_e3/CLKOUT2_Inferred
+                        sys_clk|u_pll/u_pll_e3/CLKOUT2_Inferred
+                                                     0.334       0.000              0             31
+ DebugCore_JCLK         DebugCore_JCLK               0.264       0.000              0            705
+ DebugCore_CAPTURE      DebugCore_JCLK              24.949       0.000              0            115
+ DebugCore_JCLK         DebugCore_CAPTURE            0.516       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                     17.243       0.000              0            326
+ ddrphy_clkin           ddrphy_clkin                 5.594       0.000              0           2537
+ cfg_clk                cfg_clk                     96.943       0.000              0              1
+ p_clk2core_rx_2        p_clk2core_rx_2              4.605       0.000              0            537
+ hdmi_ddr_ov5640_top|pixclk_in
+                        hdmi_ddr_ov5640_top|pixclk_in
+                                                   997.779       0.000              0             55
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.285       0.000              0            326
+ ddrphy_clkin           ddrphy_clkin                 0.260       0.000              0           2537
+ cfg_clk                cfg_clk                      1.574       0.000              0              1
+ p_clk2core_rx_2        p_clk2core_rx_2              0.518       0.000              0            537
+ hdmi_ddr_ov5640_top|pixclk_in
+                        hdmi_ddr_ov5640_top|pixclk_in
+                                                     0.744       0.000              0             55
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+

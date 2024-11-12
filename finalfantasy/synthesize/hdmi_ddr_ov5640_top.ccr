@@ -1,0 +1,515 @@
+##### Written on 2024/11/10 02:46:23 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	hdmi_ddr_ov5640_top
+
+Constraint File(s) : 
+	W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 42 critical warning(s), 85 warning(s), out of 1420 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:b_in[5]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1073)] PAP_IO_DIRECTION is already defined in p:b_in[5], new value INPUT will overwrite the current value.
+
+define_attribute {p:b_in[5]} {PAP_IO_LOC} {AB16}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1074)] PAP_IO_LOC is already defined in p:b_in[5], new value AB16 will overwrite the current value.
+
+define_attribute {p:b_in[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1075)] PAP_IO_VCCIO is already defined in p:b_in[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_in[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1076)] PAP_IO_STANDARD is already defined in p:b_in[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_in[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1077)] PAP_IO_NONE is already defined in p:b_in[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1083)] PAP_IO_DIRECTION is already defined in p:b_in[3], new value INPUT will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_LOC} {W15}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1084)] PAP_IO_LOC is already defined in p:b_in[3], new value W15 will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1085)] PAP_IO_VCCIO is already defined in p:b_in[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1086)] PAP_IO_STANDARD is already defined in p:b_in[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1087)] PAP_IO_NONE is already defined in p:b_in[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1098)] PAP_IO_DIRECTION is already defined in p:b_in[0], new value INPUT will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_LOC} {U14}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1099)] PAP_IO_LOC is already defined in p:b_in[0], new value U14 will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1100)] PAP_IO_VCCIO is already defined in p:b_in[0], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1101)] PAP_IO_STANDARD is already defined in p:b_in[0], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1102)] PAP_IO_NONE is already defined in p:b_in[0], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1103)] PAP_IO_DIRECTION is already defined in p:g_in[7], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_LOC} {W17}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1104)] PAP_IO_LOC is already defined in p:g_in[7], new value W17 will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1105)] PAP_IO_VCCIO is already defined in p:g_in[7], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1106)] PAP_IO_STANDARD is already defined in p:g_in[7], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1107)] PAP_IO_NONE is already defined in p:g_in[7], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1108)] PAP_IO_DIRECTION is already defined in p:g_in[6], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_LOC} {Y18}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1109)] PAP_IO_LOC is already defined in p:g_in[6], new value Y18 will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1110)] PAP_IO_VCCIO is already defined in p:g_in[6], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1111)] PAP_IO_STANDARD is already defined in p:g_in[6], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1112)] PAP_IO_NONE is already defined in p:g_in[6], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1113)] PAP_IO_DIRECTION is already defined in p:g_in[5], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_LOC} {AB18}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1114)] PAP_IO_LOC is already defined in p:g_in[5], new value AB18 will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1115)] PAP_IO_VCCIO is already defined in p:g_in[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1116)] PAP_IO_STANDARD is already defined in p:g_in[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1117)] PAP_IO_NONE is already defined in p:g_in[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1118)] PAP_IO_DIRECTION is already defined in p:g_in[4], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_LOC} {AA18}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1119)] PAP_IO_LOC is already defined in p:g_in[4], new value AA18 will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1120)] PAP_IO_VCCIO is already defined in p:g_in[4], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1121)] PAP_IO_STANDARD is already defined in p:g_in[4], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1122)] PAP_IO_NONE is already defined in p:g_in[4], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1123)] PAP_IO_DIRECTION is already defined in p:g_in[3], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_LOC} {AB19}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1124)] PAP_IO_LOC is already defined in p:g_in[3], new value AB19 will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1125)] PAP_IO_VCCIO is already defined in p:g_in[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1126)] PAP_IO_STANDARD is already defined in p:g_in[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1127)] PAP_IO_NONE is already defined in p:g_in[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1133)] PAP_IO_DIRECTION is already defined in p:g_in[1], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_LOC} {V17}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1134)] PAP_IO_LOC is already defined in p:g_in[1], new value V17 will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1135)] PAP_IO_VCCIO is already defined in p:g_in[1], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1136)] PAP_IO_STANDARD is already defined in p:g_in[1], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1137)] PAP_IO_NONE is already defined in p:g_in[1], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1143)] PAP_IO_DIRECTION is already defined in p:r_in[7], new value INPUT will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_LOC} {Y14}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1144)] PAP_IO_LOC is already defined in p:r_in[7], new value Y14 will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1145)] PAP_IO_VCCIO is already defined in p:r_in[7], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1146)] PAP_IO_STANDARD is already defined in p:r_in[7], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1147)] PAP_IO_NONE is already defined in p:r_in[7], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1148)] PAP_IO_DIRECTION is already defined in p:r_in[6], new value INPUT will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_LOC} {W14}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1149)] PAP_IO_LOC is already defined in p:r_in[6], new value W14 will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1150)] PAP_IO_VCCIO is already defined in p:r_in[6], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1151)] PAP_IO_STANDARD is already defined in p:r_in[6], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1152)] PAP_IO_NONE is already defined in p:r_in[6], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1153)] PAP_IO_DIRECTION is already defined in p:r_in[5], new value INPUT will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_LOC} {AB14}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1154)] PAP_IO_LOC is already defined in p:r_in[5], new value AB14 will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1155)] PAP_IO_VCCIO is already defined in p:r_in[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1156)] PAP_IO_STANDARD is already defined in p:r_in[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1157)] PAP_IO_NONE is already defined in p:r_in[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1158)] PAP_IO_DIRECTION is already defined in p:r_in[4], new value INPUT will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_LOC} {AA14}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1159)] PAP_IO_LOC is already defined in p:r_in[4], new value AA14 will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1160)] PAP_IO_VCCIO is already defined in p:r_in[4], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1161)] PAP_IO_STANDARD is already defined in p:r_in[4], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1162)] PAP_IO_NONE is already defined in p:r_in[4], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth2_txd[3]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1506)] PAP_IO_DIRECTION is already defined in p:eth2_txd[3], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth2_txd[3]} {PAP_IO_LOC} {A18}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1507)] PAP_IO_LOC is already defined in p:eth2_txd[3], new value A18 will overwrite the current value.
+
+define_attribute {p:eth2_txd[3]} {PAP_IO_VCCIO} {1.2}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1508)] PAP_IO_VCCIO is already defined in p:eth2_txd[3], new value 1.2 will overwrite the current value.
+
+define_attribute {p:eth2_txd[3]} {PAP_IO_STANDARD} {LVCMOS12}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1509)] PAP_IO_STANDARD is already defined in p:eth2_txd[3], new value LVCMOS12 will overwrite the current value.
+
+define_attribute {p:eth2_txd[3]} {PAP_IO_DRIVE} {2}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1510)] PAP_IO_DRIVE is already defined in p:eth2_txd[3], new value 2 will overwrite the current value.
+
+define_attribute {p:eth2_txd[3]} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1512)] PAP_IO_SLEW is already defined in p:eth2_txd[3], new value SLOW will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_LOC} {R22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 17)] | Port b_out[5] has been placed at location R22, whose type is share pin.
+
+define_attribute {p:b_out[4]} {PAP_IO_LOC} {R20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 24)] | Port b_out[4] has been placed at location R20, whose type is share pin.
+
+define_attribute {p:b_out[2]} {PAP_IO_LOC} {T21}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 38)] | Port b_out[2] has been placed at location T21, whose type is share pin.
+
+define_attribute {p:g_out[7]} {PAP_IO_LOC} {L17}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 59)] | Port g_out[7] has been placed at location L17, whose type is share pin.
+
+define_attribute {p:g_out[6]} {PAP_IO_LOC} {K20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 66)] | Port g_out[6] has been placed at location K20, whose type is share pin.
+
+define_attribute {p:g_out[5]} {PAP_IO_LOC} {L19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 73)] | Port g_out[5] has been placed at location L19, whose type is share pin.
+
+define_attribute {p:g_out[0]} {PAP_IO_LOC} {M21}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 108)] | Port g_out[0] has been placed at location M21, whose type is share pin.
+
+define_attribute {p:r_out[7]} {PAP_IO_LOC} {H19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 115)] | Port r_out[7] has been placed at location H19, whose type is share pin.
+
+define_attribute {p:r_out[6]} {PAP_IO_LOC} {H22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 122)] | Port r_out[6] has been placed at location H22, whose type is share pin.
+
+define_attribute {p:r_out[5]} {PAP_IO_LOC} {H21}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 129)] | Port r_out[5] has been placed at location H21, whose type is share pin.
+
+define_attribute {p:r_out[0]} {PAP_IO_LOC} {K17}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 164)] | Port r_out[0] has been placed at location K17, whose type is share pin.
+
+define_attribute {p:pix_clk} {PAP_IO_LOC} {M22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 199)] | Port pix_clk has been placed at location M22, whose type is share pin.
+
+define_attribute {p:mem_dq[14]} {PAP_IO_LOC} {P3}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 471)] | Port mem_dq[14] has been placed at location P3, whose type is share pin.
+
+define_attribute {p:mem_dq[11]} {PAP_IO_LOC} {M1}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 492)] | Port mem_dq[11] has been placed at location M1, whose type is share pin.
+
+define_attribute {p:mem_dq[9]} {PAP_IO_LOC} {M2}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 506)] | Port mem_dq[9] has been placed at location M2, whose type is share pin.
+
+define_attribute {p:cmos1_data[7]} {PAP_IO_LOC} {AB13}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 756)] | Port cmos1_data[7] has been placed at location AB13, whose type is share pin.
+
+define_attribute {p:cmos1_sda} {PAP_IO_LOC} {Y13}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 843)] | Port cmos1_sda has been placed at location Y13, whose type is share pin.
+
+define_attribute {p:cmos2_href} {PAP_IO_LOC} {AB5}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 893)] | Port cmos2_href has been placed at location AB5, whose type is share pin.
+
+define_attribute {p:cmos2_vsync} {PAP_IO_LOC} {Y5}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 903)] | Port cmos2_vsync has been placed at location Y5, whose type is share pin.
+
+define_attribute {p:iic_scl} {PAP_IO_LOC} {V19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 985)] | Port iic_scl has been placed at location V19, whose type is share pin.
+
+define_attribute {p:iic_sda} {PAP_IO_LOC} {V20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 992)] | Port iic_sda has been placed at location V20, whose type is share pin.
+
+define_attribute {p:g_in[5]} {PAP_IO_LOC} {AB18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1114)] | Port g_in[5] has been placed at location AB18, whose type is share pin.
+
+define_attribute {p:g_in[4]} {PAP_IO_LOC} {AA18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1119)] | Port g_in[4] has been placed at location AA18, whose type is share pin.
+
+define_attribute {p:g_in[3]} {PAP_IO_LOC} {AB19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1124)] | Port g_in[3] has been placed at location AB19, whose type is share pin.
+
+define_attribute {p:g_in[1]} {PAP_IO_LOC} {V17}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1134)] | Port g_in[1] has been placed at location V17, whose type is share pin.
+
+define_attribute {p:g_in[2]} {PAP_IO_LOC} {W18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1129)] | Port g_in[2] has been placed at location W18, whose type is share pin.
+
+define_attribute {p:pixclk_in} {PAP_IO_LOC} {AA12}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1194)] | Port pixclk_in has been placed at location AA12, whose type is share pin.
+
+define_attribute {p:eth2_tx_ctl} {PAP_IO_LOC} {B18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1395)] | Port eth2_tx_ctl has been placed at location B18, whose type is share pin.
+
+define_attribute {p:eth2_txd[1]} {PAP_IO_LOC} {D17}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1413)] | Port eth2_txd[1] has been placed at location D17, whose type is share pin.
+
+define_attribute {p:eth2_txd[2]} {PAP_IO_LOC} {C18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1422)] | Port eth2_txd[2] has been placed at location C18, whose type is share pin.
+
+define_attribute {p:eth2_txd[3]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4031: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1435)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_PULLUP.
+
+define_attribute {p:eth2_txd[3]} {PAP_IO_LOC} {A18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1507)] | Port eth2_txd[3] has been placed at location A18, whose type is share pin.
+
+define_attribute {p:eth2_mdc} {PAP_IO_LOC} {A20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1439)] | Port eth2_mdc has been placed at location A20, whose type is share pin.
+
+define_attribute {p:eth2_mdio} {PAP_IO_LOC} {C19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1488)] | Port eth2_mdio has been placed at location C19, whose type is share pin.
+
+define_attribute {p:eth2_rst_n} {PAP_IO_LOC} {B20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1498)] | Port eth2_rst_n has been placed at location B20, whose type is share pin.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_LOC} {F21}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1516)] | Port eth_txd[3] has been placed at location F21, whose type is share pin.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_LOC} {E22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1523)] | Port eth_txd[2] has been placed at location E22, whose type is share pin.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_LOC} {E20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1530)] | Port eth_txd[1] has been placed at location E20, whose type is share pin.
+
+define_attribute {p:eth_rxd[3]} {PAP_IO_LOC} {F18}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1544)] | Port eth_rxd[3] has been placed at location F18, whose type is share pin.
+
+define_attribute {p:eth_mdio} {PAP_IO_LOC} {G22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1564)] | Port eth_mdio has been placed at location G22, whose type is share pin.
+
+define_attribute {p:eth_mdc} {PAP_IO_LOC} {G20}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1571)] | Port eth_mdc has been placed at location G20, whose type is share pin.
+
+define_attribute {p:eth_rst_n} {PAP_IO_LOC} {F19}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1578)] | Port eth_rst_n has been placed at location F19, whose type is share pin.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_LOC} {F22}
+
+	C: ConstraintEditor-2002: [W:/FinalFantasy/finalfantasy/hdmi_ddr_ov5640_top.fdc(line number: 1585)] | Port eth_tx_ctl has been placed at location F22, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+W: ConstraintEditor-4019: Port 'cmos_init_done[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'eth2_led' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l2txn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l2txp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l3txn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l3txp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l2rxn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l2rxp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l3rxn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l3rxp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_refckn_0' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_refckp_0' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rst_n' unspecified I/O constraint.
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+
